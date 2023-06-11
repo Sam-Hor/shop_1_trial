@@ -564,6 +564,16 @@ footer a:hover {
     margin-right: 10px;
 }
 
+.nav-tabs .nav-link {
+    border-radius: 0;
+    color: var(--contrast-color);
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+
 /* ========  Product Page ======== /\ ========  */
 @media only screen and (min-width: 992px) {
     .header-bottom .navbar .dropdown-menu-end {
