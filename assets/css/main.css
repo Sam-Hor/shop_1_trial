@@ -575,7 +575,7 @@ footer a:hover {
 
 
 /* ========  Product Page ======== /\ ========  */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width : 992px) {
     .header-bottom .navbar .dropdown-menu-end {
         margin-left: 0;
         border: 0;
@@ -592,12 +592,19 @@ footer a:hover {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width : 768px) {
     .sidebar .collapse-filters {
         display: block;
     }
 
    .sidebar .collapse-filters-btn {
     display: none;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .product-content-details .nav-tabs .nav-link {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
