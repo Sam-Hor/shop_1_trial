@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Batumi SHOP :: Category</title>
+    <title>Batumi SHOP :: Sign In</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -63,10 +63,10 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a class="dropdown-item" href="#">Sign In</a>
+                                                <a class="dropdown-item" href="sign_in.html">Sign In</a>
                                             </li>
                                             <li>
-                                                <a class="dropdown-item" href="#">Sign Up</a>
+                                                <a class="dropdown-item" href="sign_up.html">Sign Up</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -301,6 +301,57 @@
         <main class="main">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-12">
+                        <nav class="breadcrumbs">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><span>Sign In</span></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid mb-3">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-register bg-white p-3">
+                            <h1 class="section-title h3"><span>Sign In</span></h1>
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3">
+                                    <form action="" class="needs-validation" novalidate>
+                                        
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label required">E-mail</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="E-mail" required>
+                                                <div class="invalid-feedback">
+                                                    Please, enter email
+                                                </div>
+                                        </div>  
+                                        
+                                        <div class="mb-3">
+                                            <label for="password" class="form-label required">Password</label>
+                                            <input type="password" class="form-control" id="password"
+                                                placeholder="Password" required>
+                                                <div class="invalid-feedback">
+                                                    Please, enter password
+                                                </div>
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <button type="submit" class="btn btn-warning">Sign In</button>
+                                            
+                                                
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </main>

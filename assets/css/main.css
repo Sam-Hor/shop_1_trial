@@ -115,6 +115,11 @@ section {
     /* z-index: -1; */
 }
 
+label.required::before {
+content: '* ';
+color: var(--red-color);
+font-weight: bold;
+}
 /*=========== /\ General rules =========*/
 /*=========== \/ Header rules =========*/
 
@@ -381,7 +386,7 @@ ul.social-icons a:hover {
 
 .about-us .section-title span,
 .sidebar .section-title span,
-.product-content .section-title span {
+.bg-white .section-title span {
     background-color: #fff;
 }
 
